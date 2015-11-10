@@ -1,0 +1,21 @@
+<Alloy>
+	<Window>
+		<View>
+			<PreviewContext>
+				<!-- The Preview tag sets the preview property. -->
+				<Preview>
+					<View>
+						<Label>Hello</Label>
+					</View>
+				</Preview>
+				<!-- The Actions tag sets the actions property. -->
+				<Actions>
+					<PreviewAction title='Preview Action' style='Ti.UI.iOS.PREVIEW_ACTION_STYLE_DESTRUCTIVE'/>
+					<PreviewActionGroup>
+						<PreviewAction />
+					</PreviewActionGroup>
+				</Actions>
+			</PreviewContext>
+		</View>
+	</Window>
+</Alloy>
