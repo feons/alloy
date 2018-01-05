@@ -26,6 +26,7 @@ module.exports = {
 		'space-before-blocks': [ERROR, 'always'],
 		'space-infix-ops': [ERROR, {'int32Hint': false}],
 		'semi': [ERROR, 'always'],
-		'valid-typeof': OFF
+		'valid-typeof': OFF,
+		'no-useless-escape': OFF
 	}
 };
